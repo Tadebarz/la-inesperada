@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #1b2b2a;
+  font-family: "Amatic SC", cursive;
 }
 
 .App-logo {
@@ -35,4 +37,253 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.slide img {
+  height: 47vmax;
+  width: 100%;
+  opacity: 70%;
+}
+
+.card-sm {
+  background-color: #1b2b2ac0;
+  font-family: "Raleway", sans-serif;
+}
+.card-lg {
+  background-color: #0d14149b;
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: "Raleway", cursive;
+  animation: fade-in 2s;
+}
+.card-lg:hover {
+  transform: scale(1.05);
+  transition: all 0.6s ease-in-out;
+  border: 2px solid #b2854c;
+}
+
+.Navbar {
+  background-image: linear-gradient(to right, #1b2b2a, #212b2bf0);
+  font-family: "Raleway", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+.nav-button {
+  border: none;
+}
+
+.nuestros-vinos {
+  font-size: 6vmax;
+  border-top: 2px whitesmoke solid;
+  border-radius: 1px;
+  padding-top: 50px;
+  color: #b2854c;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 140%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 93.5%;
+  }
+}
+
+.titulo-card {
+  font-size: 5vmax;
+  border-bottom: 1px #b2864c76 solid;
+  font-family: "Amatic SC", cursive;
+}
+
+li:hover {
+  transform: scale(1.02);
+  text-decoration: underline 1px whitesmoke;
+  color: lightgray;
+}
+li {
+  animation: fade-in 3s;
+}
+a:active {
+  transform: scale(1.1);
+}
+
+.logo:hover {
+  transform: scale(1.35);
+  transition: all 0.4s ease-in-out;
+}
+.logo {
+  transform: scale(1.2);
+  animation: fade-in 3s;
+}
+
+.nosotros-text {
+  font-family: "Raleway", cursive;
+  font-size: 1.4vmax;
+  border-top: 1px #b2854c solid;
+  animation: fade-in 2s;
+}
+
+.nosotros-tittles {
+  color: #b2854c;
+  font-size: 4vmax;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.image {
+  animation: fade-in 2s;
+}
+.image:hover {
+  transform: scale(1.02);
+  transition: all 0.8s ease-in-out;
+  border: solid 0.7px #b2854c;
+}
+.img-noticias {
+  opacity: 40%;
+}
+.cardi:hover {
+  transform: scale(1.08);
+  transition: all 0.6s ease-in-out;
+  border: solid 2px #b2854c;
+}
+.footer {
+  font-family: "Raleway", cursive;
+  background-color: #0d1414b7;
+}
+
+.insta {
+  color: whitesmoke;
+}
+
+.auth {
+  background-color: #0d141463;
+}
+html {
+  background-color: #1b2b2a;
+}
+
+.btn-auth {
+  background-color: #b2864ce0;
+  border: none;
+  font-family: "Raleway", cursive;
+  font-size: 2vmax;
+}
+.btn-auth:hover {
+  background-color: #198754;
+  transform: scale(1.1);
+  transition: all 0.7s ease-in-out;
+}
+.btn-auth2 {
+  background-color: #b2864cd8;
+  border: none;
+  font-family: "Raleway", cursive;
+  font-size: 2vmax;
+}
+.btn-auth2:hover {
+  transform: scale(1.1);
+  transition: all 0.7s ease-in-out;
+}
+.auth-text {
+  color: whitesmoke;
+  font-size: 4.5vmax;
+  font-family: "Amatic SC", cursive;
+  animation: fade-in 4s;
+}
+
+@keyframes slidein1 {
+  from {
+    margin-left: 100%;
+    width: 140%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.pokeFormPopup {
+  position: fixed;
+  background-color: rgb(34, 57, 57);
+  left: 25%;
+  top: 0;
+  width: 50%;
+  height: 90vh;
+  z-index: 3;
+  overflow-y: auto;
+  animation: fade-in 1s;
+  border: 2px solid #212121;
+}
+.closeModal {
+  background-color: rgb(34, 57, 57);
+  color: black;
+  width: 5%;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.closeModal:hover {
+  color: #b2864cd8;
+  animation: App-logo-spin 1s;
+  transition: 1s;
+}
+.noticia-imagen {
+  animation: fade-in 2s;
+}
+.pokeFormPopup::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+html::-webkit-scrollbar {
+  background-color: rgba(34, 52, 51, 0.733);
+  width: 10px;
+  border-radius: 5px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #b2864cd8;
+  border-radius: 5px;
+}
+
+.titulo-noticia {
+  text-decoration: underline 1px whitesmoke;
+}
+.imagen-noticia {
+  border-radius: 3px;
+}
+.imagen-noticia:hover {
+  width: 73%;
+  transition: 1s;
+  border: 1px solid #b2864cd8;
+}
+.borde-titulo {
+  border-bottom: 1px solid whitesmoke;
+}
+.pokeFormPopup::-webkit-scrollbar {
+  background-color: rgba(34, 52, 51, 0.733);
+  width: 5px;
+  border-radius: 5px;
+}
+.pokeFormPopup::-webkit-scrollbar-thumb {
+  background-color: #b2864cd8;
+  border-radius: 5px;
+}
+.subtitulo {
+  text-decoration: underline #b2864cd8 ;
+}
+.parrafo-noticia{
+  font-family: 'Raleway';
 }
